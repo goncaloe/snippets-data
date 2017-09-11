@@ -1,0 +1,12 @@
+{
+    "name": "default",
+    "framework": "bs4",
+    "css": [
+        "css/bootstrap.css"
+    ],
+    "js": [
+        "js/jquery.min.js",
+        "js/popper.min.js",
+        "js/bootstrap.min.js"
+    ]
+}

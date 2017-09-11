@@ -1,0 +1,11 @@
+{
+    "name": "default",
+    "framework": "bs3",
+    "css": [
+        "css/bootstrap.css"
+    ],
+    "js": [
+        "js/jquery.min.js",
+        "js/bootstrap.min.js"
+    ]
+}
