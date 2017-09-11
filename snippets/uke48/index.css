@@ -1,0 +1,190 @@
+/* css file */
+
+body, html {
+    height:  100%;
+    margin:  0 auto;
+    padding: 0 auto;
+}
+
+
+#content_wrapper {
+    background: #2f3438;
+    height: auto;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #F5F6FB;
+}
+
+#content > .container {
+    padding-top: 34px;
+}
+
+#content_header {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    background: #535967 url("images/tempest_dubai_elia_locardi.jpg") top center no-repeat;
+}
+
+#content_header h1 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    text-shadow: 0 1px 0 black;
+}
+
+#content_header .lead {
+    color: #f9f9f9;
+}
+
+#content_header + #content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.page-content {
+    -moz-box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-color: #f1f1f1 #e7e6e6 #cfcfcf;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 26px 30px;
+    min-height: 600px;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    left: 0;
+    width: 100%;
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 0;
+    background-color: transparent;
+    transition: background-color .5s ease 0s;
+    min-height: 65px;
+}
+
+.navbar .container {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    width: 175px;
+    height: 54px;
+    margin-left: 0 !important;
+    background: url("images/turnarround.jpg") no-repeat no-repeat 0 0 transparent;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    border: 0;
+}
+
+.navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: color 0.25s ease 0s;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #dae9f7;
+}
+
+.navbar-nav .open > a, .navbar-nav .open > a:hover, .navbar-nav .open > a:focus {
+    background-color: transparent;
+}
+
+@media (max-width: 1199px) {
+    .navbar-collapse {
+        background-color: #f8f8f8;
+    }
+
+    .navbar-collapse .navbar-nav > li > a {
+        color: #555;
+    }
+
+    .navbar-collapse .navbar-nav > li > a:hover, .navbar-collapse .navbar-nav > li > a:focus {
+        color: #3F98D4;
+    }
+
+    .navbar-collapse .navbar-nav > .active > a, .navbar-collapse .navbar-nav > .active > a:hover, .navbar-collapse .navbar-nav > .active > a:focus {
+        color: #3F98D4;
+    }
+}
+
+.navbar-sticky {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    box-shadow: 0 1px 5px 0 rgba(100, 100, 100, 0.3);
+    transition: background-color .5s ease 0s;
+}
+
+.navbar-sticky .navbar-nav > li > a {
+    color: #555;
+}
+
+.navbar-sticky .navbar-nav > li > a:hover, .navbar-sticky .navbar-nav > li > a:focus {
+    color: #3F98D4;
+}
+
+.navbar-sticky .navbar-nav > .active > a, .navbar-sticky .navbar-nav > .active > a:hover, .navbar-sticky .navbar-nav > .active > a:focus {
+    color: #3F98D4;
+}
+
+.navbar-sticky .navbar-nav > .open > a, .navbar-sticky .navbar-nav > .open > a:hover, .navbar-sticky .navbar-nav > .open > a:focus {
+    color: #555;
+}
+
+@media (max-width: 1199px) {
+    .navbar-sticky .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-sticky .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-sticky .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .navbar-sticky .navbar-nav .open .dropdown-menu > .active > a, .navbar-sticky .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-sticky .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+    .navbar-sticky .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-sticky .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-sticky .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-sticky .navbar-brand {
+    background-position: 0 -54px;
+}
+
+.navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-site {
+    margin-left: 42px;
+}
